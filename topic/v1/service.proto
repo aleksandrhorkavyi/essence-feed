@@ -4,7 +4,6 @@ package topic.v1;
 
 import "topic/v1/model.proto";
 
-
 service FeedService {
   rpc GetList(GetListRequest) returns (GetListResponse) {}
   rpc GetOne(GetOneRequest) returns (GetOneResponse) {}
